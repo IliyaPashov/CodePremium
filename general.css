@@ -112,12 +112,16 @@ body {
   color: #fff;
   border-radius: 9px;
 }
+
+.container {
+  max-width: 120rem;
+  margin-inline: auto;
+}
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   max-width: 130rem;
-  margin-inline: auto;
   gap: 9.6rem;
   padding: 3.2rem;
 }
@@ -130,6 +134,44 @@ body {
   background-color: #e6edf7;
   padding: 4.8rem 0 9.6rem 0;
 }
+
+.section-how {
+  padding: 9.6rem 0;
+  background-color: orange;
+}
+.test1:nth-child(1) {
+  background-color: red;
+}
+.test2:nth-child(2) {
+  background-color: aqua;
+}
+.test3:nth-child(3) {
+  background-color: blue;
+}
+.test4:nth-child(4) {
+  background-color: green;
+}
+
+.container {
+  max-width: 120rem;
+  margin-inline: auto;
+}
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--two-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--tree-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--four-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .heading-primary {
   font-size: 5.2rem;
   font-weight: 700;
